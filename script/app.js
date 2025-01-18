@@ -10,7 +10,7 @@ function adicionarAmigo() {
         alert("Por favor, insira um nome ou nomes válidos!");
         return;
     }
-
+     // Adicional de facilidade 
     // Divide os nomes com base na vírgula e remove espaços extras em cada nome
     const nomesSeparados = nomes.split(',').map(nome => nome.trim()).filter(nome => nome !== "");
 
