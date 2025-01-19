@@ -10,7 +10,7 @@ function adicionarAmigo() {
         alert("Por favor, insira um nome ou nomes válidos!");
         return;
     }
-     // Adicional de facilidade 
+
     // Divide os nomes com base na vírgula e remove espaços extras em cada nome
     const nomesSeparados = nomes.split(',').map(nome => nome.trim()).filter(nome => nome !== "");
 
@@ -55,4 +55,20 @@ function sortearAmigo() {
     // Exibe o resultado na tela
     const resultado = document.getElementById('resultado');
     resultado.innerHTML = `<li>🎉 Amigo sorteado: <strong>${amigoSorteado}</strong> 🎉</li>`;
+}
+
+// Função para reiniciar a lista de amigos e o resultado
+function reiniciar() {
+    // Limpa o array de amigos
+    amigos.length = 0;
+
+    // Limpa a lista visível na página
+    const listaAmigos = document.getElementById('listaAmigos');
+    listaAmigos.innerHTML = "";
+
+    // Limpa o resultado do sorteio
+    const resultado = document.getElementById('resultado');
+    resultado.innerHTML = "";
+
+    alert("A lista e o resultado foram reiniciados!");
 }
