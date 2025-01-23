@@ -1,4 +1,5 @@
 # **Amigo Secreto**
+projeto simples e basico
 
 Este é um projeto simples em JavaScript que simula um sorteio de "Amigo Secreto". A aplicação permite que os usuários adicionem nomes de amigos, visualize uma lista com os nomes adicionados e realize o sorteio de forma aleatória para determinar quem será o "Amigo Secreto".
 
