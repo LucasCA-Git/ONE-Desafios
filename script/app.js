@@ -1,6 +1,7 @@
 // Array para armazenar os nomes dos amigos
 const amigos = [];
 
+// Novas funções
 // Função para adicionar um ou mais nomes à lista
 function adicionarAmigo() {
     const input = document.getElementById('amigo');
